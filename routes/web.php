@@ -20,5 +20,5 @@ Route::get('/supports', [SupportController::class, 'index'])->name('supports.ind
 Route::get('/comentario', [SiteController::class, 'comment']);
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('site/welcome');
 });
